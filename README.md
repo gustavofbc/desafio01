@@ -31,10 +31,29 @@
 
 ### :wrench: Instalação
 
-Instale to.do com Yarn:
+Instale to.to com Yarn:
 
-<img alt="Instalação" src="https://github.com/gustavofbc/desafio01/blob/main/public/instalacao.svg"/>
-    
+
+Na pasta de sua escolha clone o projeto via git com o comando:
+```
+git clone git@github.com:gustavofbc/desafio01.git
+```
+
+No diretório do projeto instale suas dependências executando o comando:
+```
+yarn install
+```
+
+Para executar o projeto abra a pasta em que este se encontra e execute o comando:
+```
+yarn dev
+```
+
+Para executar os testes de validação do projeto execute o comando:
+```
+yarn test
+```
+
 ### :mortar_board: Aprendizados
 
 -> Aplicação de conceitos de Hooks na prática: useEffect
